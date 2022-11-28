@@ -50,6 +50,12 @@ class _Pertemuan1State extends State<Pertemuan1> {
                 )
               ),
             ),
+            ElevatedButton(
+              child: Text('Open Drawer'),
+              onPressed: () {
+                Scaffold.of(context).openDrawer();
+              },
+            )
           ],
         ),
       ),
